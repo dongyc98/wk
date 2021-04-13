@@ -1,0 +1,8 @@
+prefix=/home/dyc/Downloads/wk/install
+
+Name: imu_ros
+Description: Description of imu_ros
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

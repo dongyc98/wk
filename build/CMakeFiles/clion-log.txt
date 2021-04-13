@@ -1,0 +1,43 @@
+/home/dyc/Downloads/clion-2021.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCATKIN_DEVEL_PREFIX:PATH=/home/dyc/Downloads/wk/devel -G "CodeBlocks - Unix Makefiles" /home/dyc/Downloads/wk/src
+-- Using CATKIN_DEVEL_PREFIX: /home/dyc/Downloads/wk/devel
+-- Using CMAKE_PREFIX_PATH: /home/dyc/Downloads/wk/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/dyc/Downloads/wk/devel;/opt/ros/kinetic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.12", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/dyc/Downloads/wk/build/test_results
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+CMake Deprecation Warning at /usr/src/gmock/CMakeLists.txt:41 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at /usr/src/gtest/CMakeLists.txt:43 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.12") 
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 1 packages in topological order:
+-- ~~  - imu_ros
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'imu_ros'
+-- ==> add_subdirectory(imu_ros)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dyc/Downloads/wk/build
