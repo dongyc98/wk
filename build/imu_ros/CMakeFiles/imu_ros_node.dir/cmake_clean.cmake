@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/dyc/Downloads/wk/devel/lib/imu_ros/imu_ros_node"
-  "/home/dyc/Downloads/wk/devel/lib/imu_ros/imu_ros_node.pdb"
-  "CMakeFiles/imu_ros_node.dir/src/hg4930_dataparser.cpp.o"
   "CMakeFiles/imu_ros_node.dir/src/imu_node.cpp.o"
+  "CMakeFiles/imu_ros_node.dir/src/hg4930_dataparser.cpp.o"
+  "/home/dyc/Documents/catkin_ws/devel/lib/imu_ros/imu_ros_node.pdb"
+  "/home/dyc/Documents/catkin_ws/devel/lib/imu_ros/imu_ros_node"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,8 +1,8 @@
-# Install script for directory: /home/dyc/Downloads/wk/src
+# Install script for directory: /home/dyc/Documents/catkin_ws/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/dyc/Downloads/wk/install")
+  set(CMAKE_INSTALL_PREFIX "/home/dyc/Documents/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -32,17 +32,7 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
   set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
-# Is this installation the result of a crosscompile?
-if(NOT DEFINED CMAKE_CROSSCOMPILING)
-  set(CMAKE_CROSSCOMPILING "FALSE")
-endif()
-
-# Set default install directory permissions.
-if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   
       if (NOT EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}")
         file(MAKE_DIRECTORY "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}")
@@ -52,91 +42,95 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/dyc/Downloads/wk/install/_setup_util.py")
+   "/home/dyc/Documents/catkin_ws/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/dyc/Downloads/wk/install" TYPE PROGRAM FILES "/home/dyc/Downloads/wk/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/dyc/Documents/catkin_ws/install" TYPE PROGRAM FILES "/home/dyc/Documents/catkin_ws/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/dyc/Downloads/wk/install/env.sh")
+   "/home/dyc/Documents/catkin_ws/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/dyc/Downloads/wk/install" TYPE PROGRAM FILES "/home/dyc/Downloads/wk/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/dyc/Documents/catkin_ws/install" TYPE PROGRAM FILES "/home/dyc/Documents/catkin_ws/build/catkin_generated/installspace/env.sh")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/dyc/Downloads/wk/install/setup.bash;/home/dyc/Downloads/wk/install/local_setup.bash")
+   "/home/dyc/Documents/catkin_ws/install/setup.bash;/home/dyc/Documents/catkin_ws/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/dyc/Downloads/wk/install" TYPE FILE FILES
-    "/home/dyc/Downloads/wk/build/catkin_generated/installspace/setup.bash"
-    "/home/dyc/Downloads/wk/build/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/dyc/Documents/catkin_ws/install" TYPE FILE FILES
+    "/home/dyc/Documents/catkin_ws/build/catkin_generated/installspace/setup.bash"
+    "/home/dyc/Documents/catkin_ws/build/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/dyc/Downloads/wk/install/setup.sh;/home/dyc/Downloads/wk/install/local_setup.sh")
+   "/home/dyc/Documents/catkin_ws/install/setup.sh;/home/dyc/Documents/catkin_ws/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/dyc/Downloads/wk/install" TYPE FILE FILES
-    "/home/dyc/Downloads/wk/build/catkin_generated/installspace/setup.sh"
-    "/home/dyc/Downloads/wk/build/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/dyc/Documents/catkin_ws/install" TYPE FILE FILES
+    "/home/dyc/Documents/catkin_ws/build/catkin_generated/installspace/setup.sh"
+    "/home/dyc/Documents/catkin_ws/build/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/dyc/Downloads/wk/install/setup.zsh;/home/dyc/Downloads/wk/install/local_setup.zsh")
+   "/home/dyc/Documents/catkin_ws/install/setup.zsh;/home/dyc/Documents/catkin_ws/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/dyc/Downloads/wk/install" TYPE FILE FILES
-    "/home/dyc/Downloads/wk/build/catkin_generated/installspace/setup.zsh"
-    "/home/dyc/Downloads/wk/build/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/dyc/Documents/catkin_ws/install" TYPE FILE FILES
+    "/home/dyc/Documents/catkin_ws/build/catkin_generated/installspace/setup.zsh"
+    "/home/dyc/Documents/catkin_ws/build/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/dyc/Downloads/wk/install/.rosinstall")
+   "/home/dyc/Documents/catkin_ws/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/dyc/Downloads/wk/install" TYPE FILE FILES "/home/dyc/Downloads/wk/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/dyc/Documents/catkin_ws/install" TYPE FILE FILES "/home/dyc/Documents/catkin_ws/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/dyc/Downloads/wk/build/gtest/cmake_install.cmake")
-  include("/home/dyc/Downloads/wk/build/imu_ros/cmake_install.cmake")
+  include("/home/dyc/Documents/catkin_ws/build/gtest/cmake_install.cmake")
+  include("/home/dyc/Documents/catkin_ws/build/serial/cmake_install.cmake")
+  include("/home/dyc/Documents/catkin_ws/build/gps_msg/cmake_install.cmake")
+  include("/home/dyc/Documents/catkin_ws/build/gps-ros/cmake_install.cmake")
+  include("/home/dyc/Documents/catkin_ws/build/imu_ros/cmake_install.cmake")
+  include("/home/dyc/Documents/catkin_ws/build/spinnaker_sdk_camera_driver/cmake_install.cmake")
 
 endif()
 
@@ -148,5 +142,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/dyc/Downloads/wk/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/dyc/Documents/catkin_ws/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

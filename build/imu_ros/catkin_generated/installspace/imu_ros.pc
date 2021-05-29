@@ -1,4 +1,4 @@
-prefix=/home/dyc/Downloads/wk/install
+prefix=/home/dyc/Documents/catkin_ws/install
 
 Name: imu_ros
 Description: Description of imu_ros

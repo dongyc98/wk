@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,17 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/dyc/Downloads/wk/src/imu_ros/include/hg4930_dataparser.h
+/home/dyc/Documents/catkin_ws/src/imu_ros/include/hg4930_dataparser.h
 imu_node.h
-/home/dyc/Downloads/wk/src/imu_ros/include/imu_node.h
+/home/dyc/Documents/catkin_ws/src/imu_ros/include/imu_node.h
 
-/home/dyc/Downloads/wk/src/imu_ros/include/imu_node.h
+/home/dyc/Documents/catkin_ws/src/imu_ros/include/imu_node.h
 
-/home/dyc/Downloads/wk/src/imu_ros/src/imu_node.cpp
-../include/imu_node.h
-/home/dyc/Downloads/wk/src/imu_ros/include/imu_node.h
+/home/dyc/Documents/catkin_ws/src/imu_ros/src/hg4930_dataparser.cpp
 ../include/hg4930_dataparser.h
-/home/dyc/Downloads/wk/src/imu_ros/include/hg4930_dataparser.h
+/home/dyc/Documents/catkin_ws/src/imu_ros/include/hg4930_dataparser.h
+
+/home/dyc/Documents/catkin_ws/src/imu_ros/src/imu_node.cpp
+../include/imu_node.h
+/home/dyc/Documents/catkin_ws/src/imu_ros/include/imu_node.h
+../include/hg4930_dataparser.h
+/home/dyc/Documents/catkin_ws/src/imu_ros/include/hg4930_dataparser.h
 ros/ros.h
 -
 sensor_msgs/Imu.h
@@ -28,6 +32,32 @@ std_msgs/String.h
 std_msgs/Empty.h
 -
 std_msgs/Float32MultiArray.h
+-
+
+/home/dyc/Documents/catkin_ws/src/serial/include/serial/serial.h
+limits
+-
+vector
+-
+string
+-
+cstring
+-
+sstream
+-
+exception
+-
+stdexcept
+-
+serial/v8stdint.h
+-
+
+/home/dyc/Documents/catkin_ws/src/serial/include/serial/v8stdint.h
+stddef.h
+-
+stdio.h
+-
+stdint.h
 -
 
 /opt/ros/kinetic/include/geometry_msgs/Quaternion.h
@@ -730,32 +760,6 @@ geometry_msgs/Quaternion.h
 geometry_msgs/Vector3.h
 -
 geometry_msgs/Vector3.h
--
-
-/opt/ros/kinetic/include/serial/serial.h
-limits
--
-vector
--
-string
--
-cstring
--
-sstream
--
-exception
--
-stdexcept
--
-serial/v8stdint.h
--
-
-/opt/ros/kinetic/include/serial/v8stdint.h
-stddef.h
--
-stdio.h
--
-stdint.h
 -
 
 /opt/ros/kinetic/include/std_msgs/Empty.h

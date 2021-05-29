@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/dyc/Downloads/wk/src/imu_ros/src/imu_subscriber.cpp" "/home/dyc/Downloads/wk/build/imu_ros/CMakeFiles/imu_ros_subscriber.dir/src/imu_subscriber.cpp.o"
+  "/home/dyc/Documents/catkin_ws/src/imu_ros/src/imu_subscriber.cpp" "/home/dyc/Documents/catkin_ws/build/imu_ros/CMakeFiles/imu_ros_subscriber.dir/src/imu_subscriber.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,12 +17,14 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/home/dyc/Documents/catkin_ws/src/serial/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/dyc/Documents/catkin_ws/build/serial/CMakeFiles/serial.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

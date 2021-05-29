@@ -1,0 +1,8 @@
+prefix=/home/dyc/Documents/catkin_ws/install
+
+Name: gps_msg
+Description: Description of gps_msg
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp message_runtime

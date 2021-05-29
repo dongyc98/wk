@@ -1,0 +1,8 @@
+prefix=/home/dyc/Documents/catkin_ws/devel
+
+Name: inspva_ros
+Description: Description of inspva_ros
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs

@@ -7,4 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PKG_CONFIG_PATH="/home/dyc/Downloads/wk/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD='/home/dyc/Documents/catkin_ws/build'

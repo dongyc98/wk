@@ -67,14 +67,14 @@ set(imu_ros_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(imu_ros_SOURCE_PREFIX /home/dyc/Downloads/wk/src/imu_ros)
-  set(imu_ros_DEVEL_PREFIX /home/dyc/Downloads/wk/devel)
+  set(imu_ros_SOURCE_PREFIX /home/dyc/Documents/catkin_ws/src/imu_ros)
+  set(imu_ros_DEVEL_PREFIX /home/dyc/Documents/catkin_ws/devel)
   set(imu_ros_INSTALL_PREFIX "")
   set(imu_ros_PREFIX ${imu_ros_DEVEL_PREFIX})
 else()
   set(imu_ros_SOURCE_PREFIX "")
   set(imu_ros_DEVEL_PREFIX "")
-  set(imu_ros_INSTALL_PREFIX /home/dyc/Downloads/wk/install)
+  set(imu_ros_INSTALL_PREFIX /home/dyc/Documents/catkin_ws/install)
   set(imu_ros_PREFIX ${imu_ros_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/dyc/Downloads/wk/install/lib;/home/dyc/Downloads/wk/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/dyc/Documents/catkin_ws/install/lib;/home/dyc/Documents/catkin_ws/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

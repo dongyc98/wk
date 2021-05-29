@@ -22,11 +22,11 @@ void subCallback(const sensor_msgs::Imu &imu_data)
 //     imu_data.linear_acceleration.x = imudata.x_accl;
 //     imu_data.linear_acceleration.y = imudata.y_accl;
 //     imu_data.linear_acceleration.z = imudata.z_accl;
-    std::cout << "recevie once!" << std::endl;
-    std::ofstream out("/home/dyc/Downloads/wk/src/imu_ros/imu_data.txt",std::ios::app);
+    std::cout << imu_data.header.stamp << " recevie once!" << std::endl;
+    std::ofstream out("/home/dyc/imu_data.txt",std::ios::app);
     //<<fixed<<setprecision(2)的作用就是将输出结果转化为小数点后两位
     // out<<fixed<<setprecision(2)<<way_points(0)<<"\t"<<way_points(1)<<"\t"<<way_points(2)<<std::endl;
-    out<<std::fixed<<std::setprecision(2)<<imu_data.header.stamp <<"\t\t" \
+    out<<std::fixed<<std::setprecision(7)<<imu_data.header.stamp <<"\t\t" \
          <<imu_data.angular_velocity.x<<"\t\t" \
          <<imu_data.angular_velocity.y<<"\t\t" \
          <<imu_data.angular_velocity.z<<"\t\t" \

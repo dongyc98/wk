@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/dyc/Downloads/wk/src/imu_ros/src/imu_subscriber.cpp
+/home/dyc/Documents/catkin_ws/src/imu_ros/src/imu_subscriber.cpp
 ros/ros.h
-/home/dyc/Downloads/wk/src/imu_ros/src/ros/ros.h
+/home/dyc/Documents/catkin_ws/src/imu_ros/src/ros/ros.h
 sensor_msgs/Imu.h
 -
 fstream

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/dyc/Downloads/wk/devel/lib/imu_ros/imu_ros_subscriber"
-  "/home/dyc/Downloads/wk/devel/lib/imu_ros/imu_ros_subscriber.pdb"
   "CMakeFiles/imu_ros_subscriber.dir/src/imu_subscriber.cpp.o"
+  "/home/dyc/Documents/catkin_ws/devel/lib/imu_ros/imu_ros_subscriber.pdb"
+  "/home/dyc/Documents/catkin_ws/devel/lib/imu_ros/imu_ros_subscriber"
 )
 
 # Per-language clean rules from dependency scanning.

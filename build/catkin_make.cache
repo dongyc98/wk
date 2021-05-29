@@ -1,2 +1,2 @@
-
--DCATKIN_DEVEL_PREFIX=/home/dyc/Downloads/wk/devel -DCMAKE_INSTALL_PREFIX=/home/dyc/Downloads/wk/install -G Unix Makefiles
+gps-ros:gps_msg:imu_ros:serial:spinnaker_sdk_camera_driver
+-DCATKIN_DEVEL_PREFIX=/home/dyc/Documents/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/dyc/Documents/catkin_ws/install -G Unix Makefiles
